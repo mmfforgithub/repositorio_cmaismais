@@ -40,7 +40,7 @@ Lista **Lista::Inserir(Lista **R , std::string U, int I){
     return R;
 };
 
-Lista **Lista::Checa(Lista **R, std:string U){
+Lista **Lista::Pesquisar(Lista **R, std:string U){
 
 };
 
