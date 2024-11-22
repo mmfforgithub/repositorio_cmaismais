@@ -46,7 +46,7 @@ Lista **Lista::Checa(Lista **R, std:string U){
 
 Lista **Lista::Excluir(Lista **R , std::string U, bool *achei){
     Lista *antes = NULL;
-    Lista *atual = NULL;
+    Lista *atual = R[0];
     *achei = false;
     while ((atual != NULL) && (atual - > url != U)){
         ant = atual;
